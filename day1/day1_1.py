@@ -1,6 +1,6 @@
 '''
 Advent of Code 2023
-1 Dec 2023
+1st Dec 2023
 day1_1.py by GZ
 '''
 
