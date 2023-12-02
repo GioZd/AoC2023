@@ -8,7 +8,7 @@ digits = {'0', '1', '2', '3', '4', '5', '6', '7','8', '9'}
 spelled_digits = {'zero': '0', 'one':'1', 'two':'2', 'three':'3', 'four':'4', 
                   'five':'5', 'six':'6', 'seven':'7', 'eight':'8', 'nine':'9'}
 
-def get_first_digit(string: str):
+def get_first_digit(string: str) -> int:
     global digits, spelled_digits
     lowest_first_occurrence = len(string)
     first_digit: str | None = None
@@ -21,7 +21,7 @@ def get_first_digit(string: str):
     
     return first_digit
 
-def get_last_digit(string: str):
+def get_last_digit(string: str) -> int:
     global digits, spelled_digits
     highest_last_occurrence = -1
     last_digit: str | None = None
@@ -34,7 +34,7 @@ def get_last_digit(string: str):
 
     return last_digit
 
-def sum_coordinates(strings: list[str]):
+def sum_coordinates(strings: list[str]) -> int:
     return (
         sum ( 
             int(get_first_digit(string) + get_last_digit(string)) 
