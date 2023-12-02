@@ -4,7 +4,7 @@ Advent of Code 2023
 day1_1.py by GZ
 '''
 
-def sum_coordinates(strings: list[str]):
+def sum_coordinates(strings: list[str]) -> int:
     coordinates = []
     digits = "1234567890"
     for string in strings:
