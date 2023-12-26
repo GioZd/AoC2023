@@ -56,7 +56,7 @@ O..#.OO...  7
 </pre>
 The total load is the sum of the load caused by all of the rounded rocks. In this example, the total load is <code>136</code>.
 
-Tilt the platform so that the rounded rocks all roll north. Afterward, what is the total load on the north support beams?
+Tilt the platform so that the rounded rocks all roll north. **Afterward, what is the total load on the north support beams?**
 
 ## Part Two
 The parabolic reflector dish deforms, but not in a way that focuses the beam. To do that, you'll need to move the rocks to the edges of the platform. Fortunately, a button on the side of the control panel labeled "spin cycle" attempts to do just that!
@@ -110,4 +110,4 @@ This process should work if you leave it running long enough, but you're still w
 
 In the above example, after <code>1000000000</code> cycles, the total load on the north support beams is <code>64</code>.
 
-Run the spin cycle for <code>1000000000</code> cycles. Afterward, what is the total load on the north support beams?
+Run the spin cycle for <code>1000000000</code> cycles. **Afterward, what is the total load on the north support beams?**
