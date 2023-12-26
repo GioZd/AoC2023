@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
     counter = 0
     # for counter in range(10**9):
-    while counter < 1000 and pattern not in patterns:
+    while counter < 1000 and pattern not in patterns: # 1E9 is too large, but a loop will be found much sooner!
         patterns.append(pattern)
         # print('cycle', counter)
         # tilt(platform, h = 0, v = -1)
@@ -87,7 +87,7 @@ if __name__ == '__main__':
     with open('output_2.txt', 'w') as output:
         output.write(str(get_load(
                             [list(row) for row in 
-                            patterns[pattern_start + (10**9 - pattern_start)%(counter - pattern_start)].split('\n')]
+                            patterns[pattern_start + (1E9 - pattern_start)%(counter - pattern_start)].split('\n')]
                         )
             )
         )
